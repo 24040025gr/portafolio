@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="./css/ssstyle.css" />
+  <link rel="stylesheet" href="css/ssstyle.css" />
 </head> 
 
 <body id="top">
@@ -182,26 +182,10 @@
 </footer>
 
 <!-- ===== SCROLL WOW JS ===== -->
-<script>
-const reveals = document.querySelectorAll('.reveal');
 
-const revealOnScroll = () => {
-  const windowHeight = window.innerHeight;
-  const revealPoint = 120;
-
-  reveals.forEach(el => {
-    const revealTop = el.getBoundingClientRect().top;
-    if (revealTop < windowHeight - revealPoint) {
-      el.classList.add('active');
-    }
-  });
-};
-
-window.addEventListener('scroll', revealOnScroll);
-revealOnScroll();
-</script>
-<script src="./js/main.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
+
 
